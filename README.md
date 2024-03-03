@@ -7,29 +7,29 @@ This is a simple Todo application built using React for the frontend and Express
 - Users can mark a Todo as completed by clicking the corresponding button.
 
 ## Backend API Endpoints
-1. Get Todos
-Endpoint: /todos
-Method: GET
-Description: Get a list of all Todos.
+1. Get Todos<br>
+Endpoint: /todos <br>
+Method: GET<br>
+Description: Get a list of all Todos.<br>
 
-2. Create Todo
-Endpoint: /todos
-Method: POST
-Request Body:
-{
-  "title": "Todo Title",
-  "description": "Todo Description"
-}
-Description: Create a new Todo.
+2. Create Todo<br>
+Endpoint: /todos<br>
+Method: POST<br>
+Request Body:<br>
+{<br>
+  "title": "Todo Title",<br>
+  "description": "Todo Description"<br>
+}<br>
+Description: Create a new Todo.<br>
 
-3. Mark Todo as Completed
-Endpoint: /completed
-Method: PUT
-Request Body:
-{
-  "id": "Todo ID"
-}
-Description: Mark a Todo as completed.
+3. Mark Todo as Completed<br>
+Endpoint: /completed<br>
+Method: PUT<br>
+Request Body:<br>
+{<br>
+  "id": "Todo ID"<br>
+}<br>
+Description: Mark a Todo as completed.<br>
 
 ## Folder Structure
 - frontend: Contains the React frontend application.
